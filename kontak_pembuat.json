@@ -1,0 +1,36 @@
+{
+  "info": "⸻ KONTAK PEMBUAT APLIKASI ⸻",
+  "pesan": "Halo! Aplikasi Perpustakaan Dyzen ini dibuat oleh Kenzie. Kalau ada kendala atau masukan, bisa hubungi saya lewat kontak di bawah ya. Terima kasih sudah menggunakan aplikasi ini! 🙏",
+
+  "sosial_media": {
+    "instagram": {
+      "username_1": "@kennnzz._",
+      "username_2": "@kenzxl._",
+      "url": "https://instagram.com/kennnzz._"
+    }
+  },
+
+  "chat": {
+    "whatsapp": {
+      "nomor": "0812-2925-1088",
+      "deskripsi": "Admin Kenzie",
+      "link": "https://wa.me/6281229251088"
+    }
+  },
+
+  "email": {
+    "daftar": [
+      "maskengg94@gmail.com",
+      "pixelest98@gmail.com"
+    ],
+    "keterangan": "Email dibalas maksimal 2x24 jam"
+  },
+
+  "waktu_respon": {
+    "hari_kerja": "08.00 - 17.00",
+    "akhir_pekan": "Tidak aktif (kecuali darurat)",
+    "catatan": "Laporan error wajib disertai screenshot biar cepat ditangani"
+  },
+
+  "credit": "© 2024-2026 Dyzen Library | Created by Kenzie"
+}

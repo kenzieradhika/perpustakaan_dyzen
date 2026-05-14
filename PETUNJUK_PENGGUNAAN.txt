@@ -1,0 +1,119 @@
+## 📁 File: `PETUNJUK_PENGGUNAAN.txt`
+
+```txt
+============================================
+   PERPUSTAKAAN DYZEN - PETUNJUK PENGGUNAAN
+============================================
+
+📌 LANGKAH INSTALL
+============================================
+
+1. INSTALL XAMPP
+   - Download dari https://www.apachefriends.org/
+   - Install seperti biasa (next next)
+   - Buka XAMPP Control Panel
+   - Start Apache dan MySQL
+
+2. LETAKKAN FILE PROJECT
+   - Copy folder "perpustakaan_dyzen"
+   - Paste ke C:\xampp\htdocs\
+
+3. IMPORT DATABASE
+   - Buka http://localhost/phpmyadmin
+   - Klik New > Buat database: perpustakaan_dyzen
+   - Klik Import > Pilih file "database_lengkap.sql"
+   - Klik Go
+
+4. AKSES APLIKASI
+   - Buka browser, ketik: http://localhost/perpustakaan_dyzen/
+
+============================================
+🔐 LOGIN
+============================================
+
+ADMIN:
+   Email: admin@dyzen.com
+   Password: 12345678
+
+USER:
+   Email: budi@example.com
+   Password: 12345678
+
+============================================
+👑 FITUR ADMIN
+============================================
+
+- Dashboard (lihat statistik)
+- Manajemen Buku (tambah, edit, hapus)
+- Manajemen User (tambah, edit, ban, unban, hapus)
+- Denda (lihat dan tandai bayar)
+- Laporan (lihat dan export data)
+- Profile Admin (edit profil)
+
+============================================
+👤 FITUR USER
+============================================
+
+- Katalog Buku (cari dan filter)
+- Pinjam Buku (max 3 buku, 7 hari)
+- Kembalikan Buku (auto hitung denda)
+- Riwayat Peminjaman
+- Cek Denda
+- Notifikasi
+- Profile User (edit profil)
+
+============================================
+🛠️ TOOLS (dalam folder tools)
+============================================
+
+1. Laporan - Export data peminjaman
+2. Logs Archive - Lihat riwayat aktivitas
+3. Backup Database - Backup data ke file
+4. Clear Cache - Bersihkan cache sistem
+5. System Info - Lihat info server
+
+============================================
+🔧 CARA AKSES TOOLS
+============================================
+
+Login sebagai Admin -> Sidebar -> Tools
+Atau ketik langsung di browser:
+
+1. Laporan: /page/tools/laporan.php
+2. Logs: /page/tools/logs_archive.php
+3. Backup: /page/tools/backup_db.php
+4. Clear Cache: /page/tools/clear_cache.php
+5. System Info: /page/tools/system_info.php
+
+============================================
+❌ TROUBLESHOOTING
+============================================
+
+Error Database:
+   - Cek XAMPP: Apakah MySQL sudah Start?
+   - Cek config/data_base.php: username dan password
+
+Error 404:
+   - Pastikan folder di htdocs
+   - Cek URL: http://localhost/perpustakaan_dyzen/
+
+Gambar Tidak Muncul:
+   - Buat folder uploads/covers
+   - Beri permission 755
+
+Login Gagal:
+   - Cek email dan password
+   - Admin: admin@dyzen.com / 12345678
+   - User: budi@example.com / 12345678
+
+============================================
+📞 KONTAK PEMBUAT
+============================================
+
+Instagram: @kennnzz._
+WhatsApp: 0812-2925-1088
+Email: maskengg94@gmail.com
+
+============================================
+© 2024-2026 Dyzen Library | Created by Kenzie
+============================================

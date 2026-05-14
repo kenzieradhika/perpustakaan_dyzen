@@ -1,0 +1,20 @@
+# PERPUSTAKAAN DYZEN - Protect Uploads Directory
+# Mencegah akses langsung ke folder, tapi tetap mengizinkan akses ke file gambar
+
+# Deny access to all files by default
+Require all denied
+
+# Allow only image files
+<FilesMatch "\.(jpg|jpeg|png|gif|webp)$">
+    Require all granted
+</FilesMatch>
+
+# Block access to PHP files in uploads
+<FilesMatch "\.(php|phtml|php3|php4|php5|phps|inc)$">
+    Require all denied
+</FilesMatch>
+
+# Block access to .htaccess itself
+<Files ".htaccess">
+    Require all denied
+</Files>

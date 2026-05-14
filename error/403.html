@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akses Ditolak - PERPUSTAKAAN DYZEN</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #09637E, #088395);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .error-container {
+            text-align: center;
+            background: white;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+            max-width: 500px;
+            margin: 20px;
+        }
+        .error-code { font-size: 120px; font-weight: bold; color: #E53E3E; font-family: 'Playfair Display', serif; }
+        .error-title { font-size: 28px; color: #1A3C47; margin-bottom: 20px; }
+        .error-message { color: #6B9EA8; margin-bottom: 30px; }
+        .btn-home { background: linear-gradient(135deg, #09637E, #088395); color: white; padding: 12px 30px; border: none; border-radius: 10px; cursor: pointer; text-decoration: none; display: inline-block; transition: all 0.3s; }
+        .btn-home:hover { transform: translateY(-3px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        svg { width: 100px; height: 100px; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#E53E3E" stroke-width="1.5">
+            <path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div class="error-code">403</div>
+        <div class="error-title">Akses Ditolak</div>
+        <div class="error-message">Maaf, Anda tidak memiliki izin untuk mengakses halaman ini.</div>
+        <a href="/perpustakaan_dyzen/landing/halaman_awal.php" class="btn-home">Kembali ke Beranda</a>
+    </div>
+</body>
+</html>

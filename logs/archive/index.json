@@ -1,0 +1,78 @@
+{
+    "created_at": "2026-05-07 12:21:25",
+    "version": "2.0",
+    "years": {
+        "2025": {
+            "01-Jan": {
+                "count": 0,
+                "size": 0
+            },
+            "02-Feb": {
+                "count": 0,
+                "size": 0
+            },
+            "03-Mar": {
+                "count": 0,
+                "size": 0
+            },
+            "04-Apr": {
+                "count": 0,
+                "size": 0
+            },
+            "05-May": {
+                "count": 0,
+                "size": 0
+            },
+            "06-Jun": {
+                "count": 0,
+                "size": 0
+            },
+            "07-Jul": {
+                "count": 0,
+                "size": 0
+            },
+            "08-Aug": {
+                "count": 0,
+                "size": 0
+            },
+            "09-Sep": {
+                "count": 0,
+                "size": 0
+            },
+            "10-Oct": {
+                "count": 0,
+                "size": 0
+            },
+            "11-Nov": {
+                "count": 0,
+                "size": 0
+            },
+            "12-Dec": {
+                "count": 0,
+                "size": 0
+            }
+        },
+        "2026": {
+            "01-Jan": {
+                "count": 0,
+                "size": 0
+            },
+            "02-Feb": {
+                "count": 0,
+                "size": 0
+            },
+            "03-Mar": {
+                "count": 0,
+                "size": 0
+            },
+            "04-Apr": {
+                "count": 0,
+                "size": 0
+            },
+            "05-May": {
+                "count": 0,
+                "size": 0
+            }
+        }
+    }
+}
